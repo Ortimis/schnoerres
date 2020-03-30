@@ -25,16 +25,15 @@ const Layout = ({ children }) => {
 
   return (
     <>
-
       <div
         className="container"
       >
         <main>{children}</main>
       </div>
-      <footer style={{ padding: "5em", position: "absolute", bottom: 0, left: 0, right: 0 }}>
+      <footer style={{ padding: "5em" }}>
         <div className="container" >
           © {new Date().getFullYear()} Lebrecht Schnörres, built with ❤️
-          <p>Hier ist der <a href="http://github.com/ortimis/schnoerres">Sourcecode</a></p>
+          <p>Hier ist der overengineered <a href="http://github.com/ortimis/schnoerres">Sourcecode</a> für etwas webdev action ;)</p>
         </div>
       </footer>
     </>

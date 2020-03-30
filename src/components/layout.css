@@ -3,12 +3,13 @@
 @tailwind base;
 
 html {
-  font-family: Merriweather
+  font-family: "Merriweather";
+  background: #eeeeee;
 }
 
 @tailwind components;
 
-@tailwind utilities;
+@tailwind utilities; 
 
 @keyframes rotating {
   from {
@@ -20,8 +21,10 @@ html {
 }
 
 .lebrecht-bild {
-  animation: rotating 2s linear infinite
+  animation: rotating 5s linear infinite;
+  box-shadow: 0px 0px 10px 10px rgba(0,0,0,.1);
 }
+
 
 a {
   color: palevioletred

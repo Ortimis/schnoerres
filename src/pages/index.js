@@ -10,12 +10,12 @@ const IndexPage = () => (
   <>
     <SEO title="Home" />
     <Layout>
-      <div style={{ padding: "4em 4em 4em 0" }}>
+      <div style={{ padding: "8em 4em 4em 0" }}>
         <Image />
-        <h1 className="text-6xl leading-tight	">Hallo. <br />Ich bin Lebrecht.</h1>
+        <h1 className="text-6xl leading-tight	mt-10">Hallo. <br />Ich bin Lebrecht.</h1>
         <p>Auf Honolulu heißt #metoo ich will auch</p>
         <br />
-        <p>Kontaktiere mich! <a href="mailto:lebrecht@schnörres.de">lebrecht@schnörres.de</a></p>
+        <p>Kauf mir einen Kaffee, <a href="mailto:lebrecht@schnörres.de">lebrecht@schnörres.de</a></p>
 
 
       </div>

@@ -4,7 +4,8 @@ module.exports = {
             body: ['Merriweather', 'sans-serif'],
         },
         container: {
-            center: true
+            center: true,
+            padding: '1em',
         }
     },
     variants: {},
