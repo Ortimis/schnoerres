@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather&display=swap');
+
+@tailwind base;
+
+html {
+  font-family: Merriweather
+}
+
+@tailwind components;
+
+@tailwind utilities;
+
+@keyframes rotating {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.lebrecht-bild {
+  animation: rotating 2s linear infinite
+}
+
+a {
+  color: palevioletred
+}
