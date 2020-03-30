@@ -13,7 +13,7 @@ const IndexPage = () => (
       <div style={{ padding: "4em 4em 4em 0" }}>
         <Image />
         <h1 className="text-6xl leading-tight	">Hallo. <br />Ich bin Lebrecht.</h1>
-        <p>Der Trend geht eindeutig zur eigenen Homepage.</p>
+        <p>Auf Honolulu heißt #metoo ich will auch</p>
         <br />
         <p>Kontaktiere mich! <a href="mailto:lebrecht@schnörres.de">lebrecht@schnörres.de</a></p>
 
